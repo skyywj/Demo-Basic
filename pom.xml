@@ -166,7 +166,12 @@
             <version>1.2.49</version>
         </dependency>
 
-
+        <!--hashids依赖包-->
+        <dependency>
+            <groupId>org.hashids</groupId>
+            <artifactId>hashids</artifactId>
+            <version>1.0.3</version>
+        </dependency>
     </dependencies>
 
     <build>
