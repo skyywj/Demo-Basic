@@ -1,7 +1,9 @@
 package basic.knowledge;
 
 /**
- * @Author: CarryJey @Date: 2018/10/15 16:42:10 DESC:
+ * @Author: CarryJey @Date: 2018/10/15 16:42:10
+ * DESC:归并排序
+ * 时间复杂度:O（nlogn）
  */
 public class MergeSortTest {
     /**
@@ -55,7 +57,7 @@ public class MergeSortTest {
         //　将剩下的数和倒数一个有序集合归并
         if (c != 0)
             merge(a, size - c - 2 * len, size - c, size - 1);
-        //  递归执行下一趟归并排序
+        //  递归执行下一趟归并排序，1 2 4 8 16...进行归并，直到mid = 0
         mergeSort(a, 0, 2 * len);
     }
 
