@@ -11,7 +11,7 @@ package basic.knowledge.设计模式;
  *3) 通过静态方法或枚举返回单例对象
  *4) 确保单例类在反序列化是不会重新创建新的对象
  **/
-public class Singleton {
+public class SingletonModel {
 
     /**
      * 1、饿汉式：在声明的时候即初始化类。
@@ -59,10 +59,10 @@ public class Singleton {
      *第一次调用getInstance 方法的时候虚拟机才会加载SingletonHoder类,这种方式不仅能够保证线程安全,也能够保证对象的唯一,还延迟了单例的实例化,所有推荐使用这种方式
      */
     public static class SingleTonCreater{
-        private static final Singleton singleton = new Singleton();
+        private static final SingletonModel SINGLETON_MODEL = new SingletonModel();
     }
-    public Singleton getInstance(){
+    public SingletonModel getInstance(){
         //只能第一次调用时加载一次，考虑了灵活性和单例性
-        return SingleTonCreater.singleton;
+        return SingleTonCreater.SINGLETON_MODEL;
     }
 }
