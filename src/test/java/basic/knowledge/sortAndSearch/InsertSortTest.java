@@ -1,4 +1,4 @@
-package basic.knowledge;
+package basic.knowledge.sortAndSearch;
 
 /**
  * @Author: CarryJey @Date: 2018/10/16 14:31:28

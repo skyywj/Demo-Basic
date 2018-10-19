@@ -1,4 +1,4 @@
-package basic.knowledge;
+package basic.knowledge.sortAndSearch;
 
 /**
  * @Author: CarryJey @Date: 2018/10/14 17:44:29
@@ -9,7 +9,7 @@ import java.util.List;
 /**
  * 算法：快排 && 二分查找
  */
-public class BinaryTest {
+public class QuickSortAndBinaryTest {
 
     /**
      * 二分查找 时间复杂度O(log2n)
