@@ -78,3 +78,5 @@
 7、支持事件发布监听，如EventDemo
 
 8、本项目中test/basic.knowledge是一些基础知识的整理。（包括基础排序算法和设计模式）
+
+9、添加了邮件发送服务，参见 [邮箱服务文档](./Introduce/mail.md)
