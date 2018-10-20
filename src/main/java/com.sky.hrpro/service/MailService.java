@@ -1,5 +1,6 @@
 package com.sky.hrpro.service;
 
+import com.sky.hrpro.util.Constants;
 import org.springframework.stereotype.Service;
 
 import java.util.Properties;
@@ -13,11 +14,6 @@ import javax.mail.internet.*;
 @Service
 public class MailService {
 
-    public String from = "***@163.com";    //发件人邮箱地址
-    public String user = "***@163.com";    //发件人称号，同邮箱地址
-    public String psw = "******";     //发件人邮箱客户端授权码
-
-
     public boolean sendMail(String to,String text,String title){
         Properties props = new Properties();
         props.setProperty("mail.smtp.host", "smtp.163.com"); // 设置发送邮件的邮件服务器的属性（这里使用网易的smtp服务器）
@@ -28,7 +24,7 @@ public class MailService {
         session.setDebug(true); // 用session为参数定义消息对象
         MimeMessage message = new MimeMessage(session); // 加载发件人地址
         try {
-            message.setFrom(new InternetAddress(from));
+            message.setFrom(new InternetAddress(Constants.MAIL_FROM_IP));
             message.addRecipient(Message.RecipientType.TO, new InternetAddress(to)); // 加载收件人地址
             message.setSubject(title); // 加载标题
             Multipart multipart = new MimeMultipart(); // 向multipart对象中添加邮件的各个部分内容，包括文本内容和附件
@@ -38,7 +34,7 @@ public class MailService {
             message.setContent(multipart);
             message.saveChanges(); // 保存变化
             Transport transport = session.getTransport("smtp"); // 连接服务器的邮箱
-            transport.connect("smtp.163.com", user, psw); // 把邮件发送出去
+            transport.connect("smtp.163.com", Constants.MAIL_FROM_NAME, Constants.MAIL_FROM_PASSWORD); // 把邮件发送出去
             transport.sendMessage(message, message.getAllRecipients());
             transport.close();
         } catch (MessagingException e) {
