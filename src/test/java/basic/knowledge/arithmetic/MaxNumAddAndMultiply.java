@@ -1,4 +1,4 @@
-package basic.knowledge.算法;
+package basic.knowledge.arithmetic;
 
 import java.util.ArrayList;
 import java.util.List;

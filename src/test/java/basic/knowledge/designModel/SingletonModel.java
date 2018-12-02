@@ -1,4 +1,4 @@
-package basic.knowledge.设计模式;
+package basic.knowledge.designModel;
 
 /**
  * @Author: CarryJey @Date: 2018/10/17 13:48:18

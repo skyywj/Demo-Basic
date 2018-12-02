@@ -1,7 +1,7 @@
-package basic.knowledge.算法;
+package basic.knowledge.arithmetic;
 
 /**
- * @author yanwenjie
+ * @author CarryJey
  * @since 2018/11/2
  * desc: 计算哪个容器可以盛最多水
  * code地址:   https://leetcode-cn.com/problems/container-with-most-water/

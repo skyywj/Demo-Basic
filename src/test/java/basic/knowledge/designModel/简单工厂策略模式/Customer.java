@@ -1,4 +1,4 @@
-package basic.knowledge.设计模式.简单工厂策略模式;
+package basic.knowledge.designModel.简单工厂策略模式;
 
 /**
  * @Author: CarryJey @Date: 2018/10/17 19:43:50

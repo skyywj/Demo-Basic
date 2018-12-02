@@ -1,4 +1,4 @@
-package basic.knowledge.设计模式.代理模式;
+package basic.knowledge.designModel.代理模式;
 
 /**
  * @Author: CarryJey

@@ -1,4 +1,4 @@
-package basic.knowledge.设计模式.简单工厂策略模式;
+package basic.knowledge.designModel.简单工厂策略模式;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
