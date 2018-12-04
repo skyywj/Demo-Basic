@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.Stack;
 
 /**
- * @author yanwenjie
+ * @author CarryJey
  * @since 2018/10/30 desc : 深度优先遍历
  */
 public class DeepFirstSort {

@@ -1,7 +1,7 @@
 package basic.knowledge.sortAndSearch.深度优先遍历;
 
 /**
- * @author yanwenjie
+ * @author CarryJey
  * @since 2018/10/30
  */
 public class Node {
