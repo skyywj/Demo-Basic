@@ -1,7 +1,6 @@
 package test;
 
 import java.util.ArrayList;
-import java.util.List;
 
 /**
  * @author yanwenjie
@@ -28,5 +27,4 @@ public class F {
         list.add(res);
         return res;
     }
-
 }
