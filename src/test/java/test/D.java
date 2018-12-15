@@ -3,7 +3,7 @@ package test;
 import java.util.ArrayList;
 
 /**
- * @author yanwenjie
+ * @author CarryJey
  * @since 2018/12/6
  */
 public class D {
@@ -34,22 +34,22 @@ public class D {
     }
 
     public static void main(String... args) {
-//        ArrayList<ArrayList<Integer>> seqs = new ArrayList<>();
-//        ArrayList<Integer> seq = new ArrayList<>();
-//        seq.add(0);
-//        seq.add(1);
-//        seq.add(2);
-//        seq.add(3);
-//        seqs.add(seq);
-//        ArrayList<Integer> seq1 = new ArrayList<>();
-//        seq1.add(-1);
-//        seq1.add(3);
-//        seq1.add(5);
-//        seq1.add(9);
-//        seqs.add(seq1);
-//        System.out.print(merge(seqs));
-//        seq.remove(0);
-//        System.out.print(seq);
+        //        ArrayList<ArrayList<Integer>> seqs = new ArrayList<>();
+        //        ArrayList<Integer> seq = new ArrayList<>();
+        //        seq.add(0);
+        //        seq.add(1);
+        //        seq.add(2);
+        //        seq.add(3);
+        //        seqs.add(seq);
+        //        ArrayList<Integer> seq1 = new ArrayList<>();
+        //        seq1.add(-1);
+        //        seq1.add(3);
+        //        seq1.add(5);
+        //        seq1.add(9);
+        //        seqs.add(seq1);
+        //        System.out.print(merge(seqs));
+        //        seq.remove(0);
+        //        System.out.print(seq);
         System.out.print((Math.log10(8) / Math.log10(2)));
     }
 }

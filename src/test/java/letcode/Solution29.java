@@ -1,7 +1,7 @@
 package letcode;
 
 /**
- * @author yanwenjie
+ * @author CarryJey
  * @since 2018/12/12
  */
 public class Solution29 {

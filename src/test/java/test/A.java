@@ -1,7 +1,7 @@
 package test;
 
 /**
- * @author yanwenjie
+ * @author CarryJey
  * @since 2018/12/6
  */
 public class A {
@@ -10,8 +10,9 @@ public class A {
      */
     //合法值或非法值标志，true为非法
     public static boolean inValid = false;
+
     public static int binary_to_integer(String binary) {
-        if(binary.length()==0 || binary.length() == 1){
+        if (binary.length() == 0 || binary.length() == 1) {
             inValid = true;
             return 0;
         }

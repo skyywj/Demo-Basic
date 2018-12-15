@@ -1,7 +1,7 @@
 package test;
 
 /**
- * @author yanwenjie
+ * @author CarryJey
  * @since 2018/12/6
  */
 public class C {
@@ -15,7 +15,7 @@ public class C {
         Node pHead = null;
         while (cur != null) {
             Node next = cur.getNext();
-            if(next == null){
+            if (next == null) {
                 pHead = cur;
             }
             cur.setNext(pre);

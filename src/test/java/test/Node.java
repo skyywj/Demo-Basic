@@ -1,7 +1,7 @@
 package test;
 
 /**
- * @author yanwenjie
+ * @author CarryJey
  * @since 2018/12/6
  */
 public class Node {
