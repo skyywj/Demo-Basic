@@ -6,7 +6,7 @@ package letcode;
  */
 
 /**
- * 判断一棵树是否是完全镜像树
+ * 深度优先搜索之---判断一棵树是否是完全镜像树 遍历用栈存储，时间复杂度为O(n)
  */
 public class Solution101 {
     public boolean isSymmetric(TreeNode root) {

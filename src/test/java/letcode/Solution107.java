@@ -9,6 +9,10 @@ import java.util.List;
  * @author CarryJey
  * @since 2018/12/15
  */
+
+/**
+ * 广度优先查询之---按层输出 遍历需借助队列实现，时间复杂度为O（n）
+ */
 public class Solution107 {
 
     public List<List<Integer>> levelOrderBottom(TreeNode root) {
